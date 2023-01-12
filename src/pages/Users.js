@@ -70,7 +70,7 @@ function Users() {
 
     useEffect(() => {
         const nameSearch = new URLSearchParams(search).get('name');
-        filter(nameSearch);
+        if (nameSearch) filter(nameSearch);
     }, []);
     
     const filter = (key) => {

@@ -4,7 +4,7 @@ function NoPage (){
     return (
         <div className="App">
             <header className="App-header">
-            <p>Type your query:</p>
+            <p>No page</p>
             </header>
         </div>
     );
